@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!--A-->
+    <servlet>
+        <servlet-name>AServlet_demo092</servlet-name>
+        <servlet-class>cn.itcast.servlet.AServlet_demo092</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AServlet_demo092</servlet-name>
+        <url-pattern>/demo092-A</url-pattern>
+    </servlet-mapping>
+
+    <!--B-->
+    <servlet>
+        <servlet-name>BServlet_demo092</servlet-name>
+        <servlet-class>cn.itcast.servlet.BServlet_demo092</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BServlet_demo092</servlet-name>
+        <url-pattern>/demo09-B</url-pattern>
+    </servlet-mapping>
+
+    <!--C-->
+<!--    <servlet>
+        <servlet-name>CServlet_demo092</servlet-name>
+        <servlet-class>cn.itcast.servlet.CServlet_demo092</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CServlet_demo092</servlet-name>
+        <url-pattern>/demo09-C</url-pattern>
+    </servlet-mapping>-->
+    
+    <!--WELCOME-->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!---->
+    <context-param>
+        <param-name>context-param</param-name>
+        <param-value>context-value</param-value>
+    </context-param>
+
+</web-app>
