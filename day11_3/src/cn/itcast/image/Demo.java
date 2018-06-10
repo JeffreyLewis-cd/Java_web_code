@@ -18,5 +18,6 @@ public class Demo {
 
         ImageIO.write(image,"JPEG",new FileOutputStream("D:\\backupData\\bigData\\Java\\javaCode\\bbc.jpg"));
         System.out.println(code.getText());
+        System.out.println("testgit");
     }
 }
